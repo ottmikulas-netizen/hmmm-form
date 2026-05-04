@@ -25,7 +25,7 @@ export async function POST(req: NextRequest) {
       );
     }
 
-    const data = (await req.json()) as SubmissionData;
+const data = (await req.json()) as SubmissionData;
 data.submittedAt = new Date().toISOString();
 
     if (!data.jmeno || !data.email) {
