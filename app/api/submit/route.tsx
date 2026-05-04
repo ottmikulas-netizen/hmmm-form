@@ -25,8 +25,8 @@ export async function POST(req: NextRequest) {
       );
     }
 
-    const sampleData: SubmissionData = { ... } as any;
-    data.submittedAt = new Date().toISOString();
+    const data = (await req.json()) as SubmissionData;
+data.submittedAt = new Date().toISOString();
 
     if (!data.jmeno || !data.email) {
       return NextResponse.json({ error: 'Chybí jméno nebo e-mail' }, { status: 400 });
