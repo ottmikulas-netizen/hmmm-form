@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { Resend } from 'resend';
-import { renderPdfBuffer, SubmissionData } from '../../../../lib/pdf';
+import { renderPdfBuffer, SubmissionData } from '../../../lib/pdf';
 import fs from 'fs';
 import path from 'path';
 
