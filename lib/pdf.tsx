@@ -4,7 +4,7 @@ import { Document, Page, Text, View, Image, StyleSheet, renderToBuffer } from '@
 export type SubmissionData = {
   jmeno: string;
   email: string;
-  hostu?: string;
+  hostu?: string | number;
   datum?: string;
   mesto?: string;
   prostor?: string;
