@@ -12,7 +12,7 @@ const sampleData: SubmissionData = {
   email: "miki@test.cz",
   mesto: "Praha 7 — Bubeneč",
   prostor: "byt",
-  hostu: 6,
+  hostu: "6",
   datum: "2026-06-15",
   prijezd: "15:00",
   start: "18:00",
@@ -35,8 +35,7 @@ const sampleData: SubmissionData = {
   rozpocet: "80",
   rozpocetText: "okolo 2 000 Kč/os",
   occasion: ["narozeniny"],
-  extra:
-    "Překvapení pro Mikuláše — dezert s prskavkou. Je to jeho narozeninová večeře a chtěl bych aby byl Petr aktivní u stolu.",
+  extra: "Překvapení pro Mikuláše — dezert s prskavkou. Je to jeho narozeninová večeře a chtěl bych aby byl Petr aktivní u stolu.",
   submittedAt: new Date().toISOString(),
 };
 
